@@ -293,3 +293,32 @@ class MyModel(models.Model):
     def __str__(self):
         return self.name
 ```
+
+
+## POO
+
+A POO é uma metodologia de desenvolvimento de software que organiza o código em torno de "objetos" em vez de funções e lógica. Ela se baseia em quatro pilares fundamentais que ajudam a estruturar e gerenciar o código de maneira eficiente e escalável. Vamos dar uma olhada nesses pilares:
+
+- Encapsulamento
+
+Definição: O encapsulamento envolve agrupar dados e métodos que operam sobre esses dados em uma única unidade ou objeto.
+
+Benefícios: Protege os dados de acesso indevido e modifica a maneira como os dados são manipulados, garantindo a integridade e segurança.
+
+- Herança
+
+Definição: A herança permite que uma classe derive características (dados e comportamentos) de outra classe.
+
+Benefícios: Promove a reutilização de código e facilita a manutenção e a extensão do software, permitindo criar hierarquias de classes que compartilham funcionalidades comuns.
+
+- Polimorfismo
+
+ Definição: O polimorfismo permite que objetos de diferentes classes sejam tratados como objetos de uma classe base comum, possibilitando a implementação de métodos de maneiras diferentes.
+
+Benefícios: Aumenta a flexibilidade e a extensibilidade do código, permitindo que o mesmo método possa ser usado para diferentes tipos de objetos.
+
+- Abstração
+
+Definição: A abstração envolve a simplificação de sistemas complexos modelando classes apropriadas ao problema, expondo apenas os detalhes essenciais e ocultando a complexidade.
+
+Benefícios: Reduz a complexidade e melhora a manutenção do código, focando apenas nos aspectos relevantes para a funcionalidade desejada.
